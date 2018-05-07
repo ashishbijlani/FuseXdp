@@ -1,0 +1,25 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.002: Populating and pre-allocating filesets
+0.002: Removing bigfileset tree (if exists)
+0.005: Pre-allocating directories in bigfileset tree
+0.006: Pre-allocating files in bigfileset tree
+29.976: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+29.976: Population and pre-allocation of filesets completed
+187.836: Attempting to create fileset more than once, ignoring
+187.837: Starting 1 fileopen instances
+188.845: Running...
+198.846: Per-Operation Breakdown
+finish               4ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               4ops        0ops/s   0.0mb/s    0.006ms/op [0.000ms - 0.009ms]
+write-file           559517ops    55948ops/s 1748.4mb/s    0.497ms/op [0.008ms - 3576.607ms]
+open1                32ops        3ops/s   0.0mb/s    0.905ms/op [0.016ms - 19.902ms]
+198.846: IO Summary: 559552 ops 55951.104 ops/s 0/55948 rd/wr 1748.4mb/s 0.497ms/op
+207.847: Run took 19 seconds...
+207.847: Per-Operation Breakdown
+finish               28ops        3ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.001ms]
+close1               28ops        3ops/s   0.0mb/s    0.006ms/op [0.000ms - 0.008ms]
+write-file           423509ops    47052ops/s 1470.4mb/s    0.412ms/op [0.000ms - 2082.191ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+207.847: IO Summary: 423537 ops 47055.322 ops/s 0/47052 rd/wr 1470.4mb/s 0.412ms/op
+207.847: Shutting down processes
