@@ -1,0 +1,56 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.006: Populating and pre-allocating filesets
+0.402: bigfileset populated: 1000000 files, avg. dir. width = 1000, avg. dir. depth = 2.0, 0 leafdirs, 3906.250MB total size
+0.402: Removing bigfileset tree (if exists)
+0.404: Pre-allocating directories in bigfileset tree
+0.420: Pre-allocating files in bigfileset tree
+37.908: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+37.908: Population and pre-allocation of filesets completed
+45.893: Attempting to create fileset more than once, ignoring
+45.899: Starting 1 fileopen instances
+47.080: Running...
+57.081: Per-Operation Breakdown
+finish               152524ops    15251ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.072ms]
+close-file           152524ops    15251ops/s   0.0mb/s    0.003ms/op [0.001ms - 28.736ms]
+read-file            152524ops    15251ops/s  59.6mb/s    1.378ms/op [0.096ms - 334.928ms]
+open1                152556ops    15255ops/s   0.0mb/s    0.678ms/op [0.009ms - 820.966ms]
+57.081: IO Summary: 457604 ops 45757.641 ops/s 15251/0 rd/wr  59.6mb/s 0.686ms/op
+67.084: Per-Operation Breakdown
+finish               134973ops    13493ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.057ms]
+close-file           134974ops    13493ops/s   0.0mb/s    0.003ms/op [0.001ms - 11.499ms]
+read-file            134980ops    13494ops/s  52.7mb/s    1.621ms/op [0.039ms - 363.352ms]
+open1                134973ops    13493ops/s   0.0mb/s    0.785ms/op [0.009ms - 1029.944ms]
+67.084: IO Summary: 404927 ops 40479.589 ops/s 13494/0 rd/wr  52.7mb/s 0.803ms/op
+77.086: Per-Operation Breakdown
+finish               160742ops    16072ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.047ms]
+close-file           160741ops    16072ops/s   0.0mb/s    0.003ms/op [0.001ms - 6.762ms]
+read-file            160729ops    16071ops/s  62.8mb/s    1.414ms/op [0.095ms - 434.599ms]
+open1                160742ops    16072ops/s   0.0mb/s    0.466ms/op [0.009ms - 752.760ms]
+77.086: IO Summary: 482212 ops 48215.800 ops/s 16071/0 rd/wr  62.8mb/s 0.627ms/op
+87.087: Per-Operation Breakdown
+finish               133684ops    13367ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.063ms]
+close-file           133684ops    13367ops/s   0.0mb/s    0.003ms/op [0.001ms - 2.624ms]
+read-file            133684ops    13367ops/s  52.2mb/s    1.548ms/op [0.094ms - 421.854ms]
+open1                133684ops    13367ops/s   0.0mb/s    0.857ms/op [0.009ms - 1282.867ms]
+87.087: IO Summary: 401052 ops 40101.563 ops/s 13367/0 rd/wr  52.2mb/s 0.803ms/op
+97.088: Per-Operation Breakdown
+finish               142696ops    14268ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.095ms]
+close-file           142696ops    14268ops/s   0.0mb/s    0.003ms/op [0.001ms - 1.090ms]
+read-file            142696ops    14268ops/s  55.7mb/s    1.641ms/op [0.092ms - 391.475ms]
+open1                142664ops    14265ops/s   0.0mb/s    0.449ms/op [0.009ms - 625.401ms]
+97.088: IO Summary: 428056 ops 42801.975 ops/s 14268/0 rd/wr  55.7mb/s 0.698ms/op
+107.089: Per-Operation Breakdown
+finish               151789ops    15178ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.186ms]
+close-file           151789ops    15178ops/s   0.0mb/s    0.003ms/op [0.001ms - 7.951ms]
+read-file            151789ops    15178ops/s  59.3mb/s    1.493ms/op [0.097ms - 370.747ms]
+open1                151821ops    15181ops/s   0.0mb/s    0.712ms/op [0.009ms - 887.688ms]
+107.089: IO Summary: 455399 ops 45537.036 ops/s 15178/0 rd/wr  59.3mb/s 0.736ms/op
+117.090: Run took 70 seconds...
+117.090: Per-Operation Breakdown
+finish               123617ops    12361ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.047ms]
+close-file           123617ops    12361ops/s   0.0mb/s    0.003ms/op [0.001ms - 1.004ms]
+read-file            123617ops    12361ops/s  48.3mb/s    1.551ms/op [0.002ms - 503.959ms]
+open1                123585ops    12357ops/s   0.0mb/s    0.649ms/op [0.006ms - 1091.504ms]
+117.090: IO Summary: 370819 ops 37078.359 ops/s 12361/0 rd/wr  48.3mb/s 0.734ms/op
+117.090: Shutting down processes

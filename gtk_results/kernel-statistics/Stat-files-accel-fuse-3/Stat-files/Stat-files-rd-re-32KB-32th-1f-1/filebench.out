@@ -1,0 +1,931 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.131: Populating and pre-allocating filesets
+0.131: Removing bigfileset tree (if exists)
+0.133: Pre-allocating directories in bigfileset tree
+0.133: Pre-allocating files in bigfileset tree
+743.769: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+743.769: Population and pre-allocation of filesets completed
+778.107: Attempting to create fileset more than once, ignoring
+778.160: Starting 1 fileopen instances
+779.428: Running...
+789.429: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1269ops      127ops/s   4.0mb/s  247.831ms/op [0.010ms - 1856.977ms]
+open1                32ops        3ops/s   0.0mb/s    0.459ms/op [0.012ms - 13.987ms]
+789.429: IO Summary:  1301 ops 130.092 ops/s 127/0 rd/wr   4.0mb/s 241.746ms/op
+799.430: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1458ops      146ops/s   4.6mb/s  218.658ms/op [0.009ms - 1522.447ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+799.430: IO Summary:  1458 ops 145.791 ops/s 146/0 rd/wr   4.6mb/s 218.658ms/op
+809.431: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1180ops      118ops/s   3.7mb/s  272.505ms/op [0.009ms - 1183.678ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+809.431: IO Summary:  1180 ops 117.993 ops/s 118/0 rd/wr   3.7mb/s 272.505ms/op
+819.432: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1462ops      146ops/s   4.6mb/s  216.421ms/op [0.009ms - 1847.315ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+819.432: IO Summary:  1462 ops 146.191 ops/s 146/0 rd/wr   4.6mb/s 216.421ms/op
+829.433: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1522ops      152ops/s   4.8mb/s  209.823ms/op [0.009ms - 1197.265ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+829.433: IO Summary:  1522 ops 152.191 ops/s 152/0 rd/wr   4.8mb/s 209.823ms/op
+839.434: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1329ops      133ops/s   4.2mb/s  243.520ms/op [0.008ms - 1382.684ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+839.434: IO Summary:  1329 ops 132.892 ops/s 133/0 rd/wr   4.2mb/s 243.520ms/op
+849.435: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1311ops      131ops/s   4.1mb/s  242.979ms/op [0.009ms - 1745.660ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+849.435: IO Summary:  1311 ops 131.090 ops/s 131/0 rd/wr   4.1mb/s 242.979ms/op
+859.436: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1452ops      145ops/s   4.5mb/s  221.455ms/op [0.009ms - 1357.373ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+859.436: IO Summary:  1452 ops 145.189 ops/s 145/0 rd/wr   4.5mb/s 221.455ms/op
+869.437: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1541ops      154ops/s   4.8mb/s  207.743ms/op [0.008ms - 1231.547ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+869.437: IO Summary:  1541 ops 154.088 ops/s 154/0 rd/wr   4.8mb/s 207.743ms/op
+879.438: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1315ops      131ops/s   4.1mb/s  243.521ms/op [0.009ms - 1891.394ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+879.438: IO Summary:  1315 ops 131.490 ops/s 131/0 rd/wr   4.1mb/s 243.521ms/op
+889.439: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1425ops      142ops/s   4.5mb/s  223.579ms/op [0.008ms - 1362.533ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+889.439: IO Summary:  1425 ops 142.489 ops/s 142/0 rd/wr   4.5mb/s 223.579ms/op
+899.440: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1452ops      145ops/s   4.5mb/s  221.613ms/op [0.008ms - 1219.428ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+899.440: IO Summary:  1452 ops 145.189 ops/s 145/0 rd/wr   4.5mb/s 221.613ms/op
+909.442: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1500ops      150ops/s   4.7mb/s  212.369ms/op [0.008ms - 1101.506ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+909.442: IO Summary:  1500 ops 149.988 ops/s 150/0 rd/wr   4.7mb/s 212.369ms/op
+919.443: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1502ops      150ops/s   4.7mb/s  212.908ms/op [0.008ms - 1340.557ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+919.443: IO Summary:  1502 ops 150.188 ops/s 150/0 rd/wr   4.7mb/s 212.908ms/op
+929.444: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1462ops      146ops/s   4.6mb/s  218.678ms/op [0.008ms - 1564.050ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+929.444: IO Summary:  1462 ops 146.189 ops/s 146/0 rd/wr   4.6mb/s 218.678ms/op
+939.445: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1360ops      136ops/s   4.2mb/s  234.665ms/op [0.009ms - 1947.921ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+939.445: IO Summary:  1360 ops 135.989 ops/s 136/0 rd/wr   4.2mb/s 234.665ms/op
+949.446: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1455ops      145ops/s   4.5mb/s  221.022ms/op [0.008ms - 1377.432ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+949.446: IO Summary:  1455 ops 145.488 ops/s 145/0 rd/wr   4.5mb/s 221.022ms/op
+959.447: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1694ops      169ops/s   5.3mb/s  189.036ms/op [0.008ms - 1899.952ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+959.447: IO Summary:  1694 ops 169.387 ops/s 169/0 rd/wr   5.3mb/s 189.036ms/op
+969.448: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1500ops      150ops/s   4.7mb/s  211.505ms/op [0.008ms - 1608.232ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+969.448: IO Summary:  1500 ops 149.988 ops/s 150/0 rd/wr   4.7mb/s 211.505ms/op
+979.449: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1480ops      148ops/s   4.6mb/s  217.817ms/op [0.008ms - 1446.184ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+979.449: IO Summary:  1480 ops 147.988 ops/s 148/0 rd/wr   4.6mb/s 217.817ms/op
+989.451: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1521ops      152ops/s   4.8mb/s  211.165ms/op [0.009ms - 2550.169ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+989.451: IO Summary:  1521 ops 152.088 ops/s 152/0 rd/wr   4.8mb/s 211.165ms/op
+999.452: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1575ops      157ops/s   4.9mb/s  203.188ms/op [0.007ms - 1250.669ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+999.452: IO Summary:  1575 ops 157.488 ops/s 157/0 rd/wr   4.9mb/s 203.188ms/op
+1009.453: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1678ops      168ops/s   5.2mb/s  190.236ms/op [0.008ms - 1379.238ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1009.453: IO Summary:  1678 ops 167.787 ops/s 168/0 rd/wr   5.2mb/s 190.236ms/op
+1019.454: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1550ops      155ops/s   4.8mb/s  206.906ms/op [0.009ms - 1664.860ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1019.454: IO Summary:  1550 ops 154.988 ops/s 155/0 rd/wr   4.8mb/s 206.906ms/op
+1029.455: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1439ops      144ops/s   4.5mb/s  222.067ms/op [0.008ms - 1191.191ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1029.455: IO Summary:  1439 ops 143.889 ops/s 144/0 rd/wr   4.5mb/s 222.067ms/op
+1039.456: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1611ops      161ops/s   5.0mb/s  197.694ms/op [0.008ms - 1379.456ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1039.456: IO Summary:  1611 ops 161.087 ops/s 161/0 rd/wr   5.0mb/s 197.694ms/op
+1049.457: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1518ops      152ops/s   4.7mb/s  211.967ms/op [0.008ms - 1246.608ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1049.457: IO Summary:  1518 ops 151.788 ops/s 152/0 rd/wr   4.7mb/s 211.967ms/op
+1059.459: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1704ops      170ops/s   5.3mb/s  188.000ms/op [0.008ms - 1786.789ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1059.459: IO Summary:  1704 ops 170.387 ops/s 170/0 rd/wr   5.3mb/s 188.000ms/op
+1069.460: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1614ops      161ops/s   5.0mb/s  195.518ms/op [0.008ms - 1467.164ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1069.460: IO Summary:  1614 ops 161.387 ops/s 161/0 rd/wr   5.0mb/s 195.518ms/op
+1079.461: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1417ops      142ops/s   4.4mb/s  228.985ms/op [0.009ms - 1536.098ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1079.461: IO Summary:  1417 ops 141.690 ops/s 142/0 rd/wr   4.4mb/s 228.985ms/op
+1089.462: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1535ops      153ops/s   4.8mb/s  208.995ms/op [0.008ms - 1449.163ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1089.462: IO Summary:  1535 ops 153.487 ops/s 153/0 rd/wr   4.8mb/s 208.995ms/op
+1099.463: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1534ops      153ops/s   4.8mb/s  208.071ms/op [0.008ms - 1404.950ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1099.463: IO Summary:  1534 ops 153.388 ops/s 153/0 rd/wr   4.8mb/s 208.071ms/op
+1109.464: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1560ops      156ops/s   4.9mb/s  205.820ms/op [0.008ms - 1296.075ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1109.464: IO Summary:  1560 ops 155.988 ops/s 156/0 rd/wr   4.9mb/s 205.820ms/op
+1119.465: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1618ops      162ops/s   5.1mb/s  196.384ms/op [0.008ms - 1665.575ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1119.465: IO Summary:  1618 ops 161.787 ops/s 162/0 rd/wr   5.1mb/s 196.384ms/op
+1129.467: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1607ops      161ops/s   5.0mb/s  199.771ms/op [0.008ms - 1191.462ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1129.467: IO Summary:  1607 ops 160.687 ops/s 161/0 rd/wr   5.0mb/s 199.771ms/op
+1139.468: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1686ops      169ops/s   5.3mb/s  189.353ms/op [0.008ms - 1225.001ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1139.468: IO Summary:  1686 ops 168.587 ops/s 169/0 rd/wr   5.3mb/s 189.353ms/op
+1149.469: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1526ops      153ops/s   4.8mb/s  208.926ms/op [0.008ms - 1194.739ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1149.469: IO Summary:  1526 ops 152.589 ops/s 153/0 rd/wr   4.8mb/s 208.926ms/op
+1159.470: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1648ops      165ops/s   5.1mb/s  196.234ms/op [0.007ms - 1556.010ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1159.470: IO Summary:  1648 ops 164.787 ops/s 165/0 rd/wr   5.1mb/s 196.234ms/op
+1169.471: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1718ops      172ops/s   5.4mb/s  184.307ms/op [0.008ms - 1471.117ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1169.471: IO Summary:  1718 ops 171.787 ops/s 172/0 rd/wr   5.4mb/s 184.307ms/op
+1179.472: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1710ops      171ops/s   5.3mb/s  187.134ms/op [0.008ms - 1395.742ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1179.472: IO Summary:  1710 ops 170.987 ops/s 171/0 rd/wr   5.3mb/s 187.134ms/op
+1189.473: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1671ops      167ops/s   5.2mb/s  192.271ms/op [0.008ms - 1673.273ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1189.473: IO Summary:  1671 ops 167.087 ops/s 167/0 rd/wr   5.2mb/s 192.271ms/op
+1199.474: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1726ops      173ops/s   5.4mb/s  186.116ms/op [0.008ms - 1278.831ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1199.474: IO Summary:  1726 ops 172.587 ops/s 173/0 rd/wr   5.4mb/s 186.116ms/op
+1209.475: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1556ops      156ops/s   4.9mb/s  204.933ms/op [0.008ms - 1629.047ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1209.475: IO Summary:  1556 ops 155.589 ops/s 156/0 rd/wr   4.9mb/s 204.933ms/op
+1219.476: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1594ops      159ops/s   5.0mb/s  199.926ms/op [0.008ms - 1948.525ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1219.476: IO Summary:  1594 ops 159.388 ops/s 159/0 rd/wr   5.0mb/s 199.926ms/op
+1229.478: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1671ops      167ops/s   5.2mb/s  192.909ms/op [0.007ms - 1248.889ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1229.478: IO Summary:  1671 ops 167.087 ops/s 167/0 rd/wr   5.2mb/s 192.909ms/op
+1239.479: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1684ops      168ops/s   5.3mb/s  189.550ms/op [0.008ms - 2222.500ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1239.479: IO Summary:  1684 ops 168.388 ops/s 168/0 rd/wr   5.3mb/s 189.550ms/op
+1249.480: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1689ops      169ops/s   5.3mb/s  187.612ms/op [0.008ms - 1726.107ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1249.480: IO Summary:  1689 ops 168.888 ops/s 169/0 rd/wr   5.3mb/s 187.612ms/op
+1259.481: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1581ops      158ops/s   4.9mb/s  203.678ms/op [0.008ms - 1740.205ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1259.481: IO Summary:  1581 ops 158.088 ops/s 158/0 rd/wr   4.9mb/s 203.678ms/op
+1269.482: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1809ops      181ops/s   5.7mb/s  178.636ms/op [0.008ms - 2245.923ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1269.482: IO Summary:  1809 ops 180.887 ops/s 181/0 rd/wr   5.7mb/s 178.636ms/op
+1279.483: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1691ops      169ops/s   5.3mb/s  186.948ms/op [0.008ms - 1447.093ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1279.483: IO Summary:  1691 ops 169.088 ops/s 169/0 rd/wr   5.3mb/s 186.948ms/op
+1289.484: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1759ops      176ops/s   5.5mb/s  182.493ms/op [0.008ms - 1346.818ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1289.484: IO Summary:  1759 ops 175.887 ops/s 176/0 rd/wr   5.5mb/s 182.493ms/op
+1299.485: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1682ops      168ops/s   5.3mb/s  191.568ms/op [0.008ms - 1431.270ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1299.485: IO Summary:  1682 ops 168.187 ops/s 168/0 rd/wr   5.3mb/s 191.568ms/op
+1309.486: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1648ops      165ops/s   5.1mb/s  192.103ms/op [0.008ms - 1971.434ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1309.486: IO Summary:  1648 ops 164.787 ops/s 165/0 rd/wr   5.1mb/s 192.103ms/op
+1319.488: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1759ops      176ops/s   5.5mb/s  183.631ms/op [0.007ms - 2024.010ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1319.488: IO Summary:  1759 ops 175.886 ops/s 176/0 rd/wr   5.5mb/s 183.631ms/op
+1329.489: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1714ops      171ops/s   5.4mb/s  185.823ms/op [0.008ms - 1418.063ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1329.489: IO Summary:  1714 ops 171.387 ops/s 171/0 rd/wr   5.4mb/s 185.823ms/op
+1339.490: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1660ops      166ops/s   5.2mb/s  193.233ms/op [0.008ms - 1737.603ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1339.490: IO Summary:  1660 ops 165.988 ops/s 166/0 rd/wr   5.2mb/s 193.233ms/op
+1349.491: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1722ops      172ops/s   5.4mb/s  186.403ms/op [0.008ms - 1494.494ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1349.491: IO Summary:  1722 ops 172.187 ops/s 172/0 rd/wr   5.4mb/s 186.403ms/op
+1359.492: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1640ops      164ops/s   5.1mb/s  194.403ms/op [0.008ms - 1361.805ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1359.492: IO Summary:  1640 ops 163.988 ops/s 164/0 rd/wr   5.1mb/s 194.403ms/op
+1369.493: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1758ops      176ops/s   5.5mb/s  182.659ms/op [0.008ms - 1470.197ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1369.493: IO Summary:  1758 ops 175.787 ops/s 176/0 rd/wr   5.5mb/s 182.659ms/op
+1379.494: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1657ops      166ops/s   5.2mb/s  193.189ms/op [0.008ms - 1493.968ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1379.494: IO Summary:  1657 ops 165.687 ops/s 166/0 rd/wr   5.2mb/s 193.189ms/op
+1389.495: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1793ops      179ops/s   5.6mb/s  177.453ms/op [0.007ms - 1452.447ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1389.495: IO Summary:  1793 ops 179.287 ops/s 179/0 rd/wr   5.6mb/s 177.453ms/op
+1399.496: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1542ops      154ops/s   4.8mb/s  208.102ms/op [0.008ms - 1934.269ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1399.496: IO Summary:  1542 ops 154.189 ops/s 154/0 rd/wr   4.8mb/s 208.102ms/op
+1409.497: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1706ops      171ops/s   5.3mb/s  186.442ms/op [0.007ms - 2026.335ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1409.497: IO Summary:  1706 ops 170.587 ops/s 171/0 rd/wr   5.3mb/s 186.442ms/op
+1419.498: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1824ops      182ops/s   5.7mb/s  176.440ms/op [0.007ms - 1645.859ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1419.498: IO Summary:  1824 ops 182.388 ops/s 182/0 rd/wr   5.7mb/s 176.440ms/op
+1429.499: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1711ops      171ops/s   5.3mb/s  187.862ms/op [0.007ms - 1278.736ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1429.499: IO Summary:  1711 ops 171.088 ops/s 171/0 rd/wr   5.3mb/s 187.862ms/op
+1439.500: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1745ops      174ops/s   5.5mb/s  183.404ms/op [0.008ms - 1217.071ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1439.500: IO Summary:  1745 ops 174.489 ops/s 174/0 rd/wr   5.5mb/s 183.404ms/op
+1449.501: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1782ops      178ops/s   5.6mb/s  178.967ms/op [0.008ms - 1060.790ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1449.502: IO Summary:  1782 ops 178.188 ops/s 178/0 rd/wr   5.6mb/s 178.967ms/op
+1459.503: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1782ops      178ops/s   5.6mb/s  179.941ms/op [0.007ms - 1326.765ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1459.503: IO Summary:  1782 ops 178.187 ops/s 178/0 rd/wr   5.6mb/s 179.941ms/op
+1469.504: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1707ops      171ops/s   5.3mb/s  186.277ms/op [0.007ms - 1535.756ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1469.504: IO Summary:  1707 ops 170.688 ops/s 171/0 rd/wr   5.3mb/s 186.277ms/op
+1479.505: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1768ops      177ops/s   5.5mb/s  181.671ms/op [0.007ms - 1810.600ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1479.505: IO Summary:  1768 ops 176.788 ops/s 177/0 rd/wr   5.5mb/s 181.671ms/op
+1489.506: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1738ops      174ops/s   5.4mb/s  185.360ms/op [0.007ms - 1846.180ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1489.506: IO Summary:  1738 ops 173.787 ops/s 174/0 rd/wr   5.4mb/s 185.360ms/op
+1499.507: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1789ops      179ops/s   5.6mb/s  178.453ms/op [0.008ms - 1461.189ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1499.507: IO Summary:  1789 ops 178.886 ops/s 179/0 rd/wr   5.6mb/s 178.453ms/op
+1509.508: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1717ops      172ops/s   5.4mb/s  186.202ms/op [0.008ms - 1682.403ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1509.508: IO Summary:  1717 ops 171.690 ops/s 172/0 rd/wr   5.4mb/s 186.202ms/op
+1519.509: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1659ops      166ops/s   5.2mb/s  192.236ms/op [0.007ms - 1213.087ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1519.509: IO Summary:  1659 ops 165.889 ops/s 166/0 rd/wr   5.2mb/s 192.236ms/op
+1529.510: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1674ops      167ops/s   5.2mb/s  190.816ms/op [0.007ms - 1575.088ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1529.510: IO Summary:  1674 ops 167.389 ops/s 167/0 rd/wr   5.2mb/s 190.816ms/op
+1539.511: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1699ops      170ops/s   5.3mb/s  189.950ms/op [0.008ms - 1248.460ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1539.511: IO Summary:  1699 ops 169.890 ops/s 170/0 rd/wr   5.3mb/s 189.950ms/op
+1549.512: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1589ops      159ops/s   5.0mb/s  199.806ms/op [0.008ms - 1423.810ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1549.512: IO Summary:  1589 ops 158.890 ops/s 159/0 rd/wr   5.0mb/s 199.806ms/op
+1559.513: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1783ops      178ops/s   5.6mb/s  179.824ms/op [0.007ms - 1490.687ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1559.513: IO Summary:  1783 ops 178.288 ops/s 178/0 rd/wr   5.6mb/s 179.824ms/op
+1569.514: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1734ops      173ops/s   5.4mb/s  185.299ms/op [0.007ms - 2047.346ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1569.514: IO Summary:  1734 ops 173.389 ops/s 173/0 rd/wr   5.4mb/s 185.299ms/op
+1579.515: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1786ops      179ops/s   5.6mb/s  178.455ms/op [0.007ms - 1970.448ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1579.515: IO Summary:  1786 ops 178.589 ops/s 179/0 rd/wr   5.6mb/s 178.455ms/op
+1589.516: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1710ops      171ops/s   5.3mb/s  187.082ms/op [0.007ms - 1951.215ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1589.516: IO Summary:  1710 ops 170.988 ops/s 171/0 rd/wr   5.3mb/s 187.082ms/op
+1599.517: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1734ops      173ops/s   5.4mb/s  184.450ms/op [0.007ms - 1663.286ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1599.517: IO Summary:  1734 ops 173.389 ops/s 173/0 rd/wr   5.4mb/s 184.450ms/op
+1609.518: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1618ops      162ops/s   5.1mb/s  197.697ms/op [0.008ms - 1736.745ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1609.518: IO Summary:  1618 ops 161.787 ops/s 162/0 rd/wr   5.1mb/s 197.697ms/op
+1619.519: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1713ops      171ops/s   5.4mb/s  187.496ms/op [0.007ms - 1616.901ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1619.519: IO Summary:  1713 ops 171.288 ops/s 171/0 rd/wr   5.4mb/s 187.496ms/op
+1629.520: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1813ops      181ops/s   5.7mb/s  175.944ms/op [0.007ms - 1587.379ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1629.520: IO Summary:  1813 ops 181.286 ops/s 181/0 rd/wr   5.7mb/s 175.944ms/op
+1639.521: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1726ops      173ops/s   5.4mb/s  186.042ms/op [0.008ms - 1348.123ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1639.521: IO Summary:  1726 ops 172.588 ops/s 173/0 rd/wr   5.4mb/s 186.042ms/op
+1649.522: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1761ops      176ops/s   5.5mb/s  181.387ms/op [0.007ms - 2290.025ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1649.522: IO Summary:  1761 ops 176.087 ops/s 176/0 rd/wr   5.5mb/s 181.387ms/op
+1659.523: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1687ops      169ops/s   5.3mb/s  189.467ms/op [0.007ms - 1790.469ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1659.523: IO Summary:  1687 ops 168.687 ops/s 169/0 rd/wr   5.3mb/s 189.467ms/op
+1669.524: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1785ops      178ops/s   5.6mb/s  180.104ms/op [0.007ms - 2020.022ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1669.524: IO Summary:  1785 ops 178.486 ops/s 178/0 rd/wr   5.6mb/s 180.104ms/op
+1679.526: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1824ops      182ops/s   5.7mb/s  174.868ms/op [0.007ms - 1583.685ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1679.526: IO Summary:  1824 ops 182.385 ops/s 182/0 rd/wr   5.7mb/s 174.868ms/op
+1689.527: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1883ops      188ops/s   5.9mb/s  170.363ms/op [0.008ms - 1293.294ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1689.527: IO Summary:  1883 ops 188.288 ops/s 188/0 rd/wr   5.9mb/s 170.363ms/op
+1699.528: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1702ops      170ops/s   5.3mb/s  187.695ms/op [0.007ms - 1218.749ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1699.528: IO Summary:  1702 ops 170.189 ops/s 170/0 rd/wr   5.3mb/s 187.695ms/op
+1709.529: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1719ops      172ops/s   5.4mb/s  185.781ms/op [0.007ms - 1314.087ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1709.529: IO Summary:  1719 ops 171.888 ops/s 172/0 rd/wr   5.4mb/s 185.781ms/op
+1719.530: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1770ops      177ops/s   5.5mb/s  181.387ms/op [0.007ms - 2032.498ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1719.530: IO Summary:  1770 ops 176.988 ops/s 177/0 rd/wr   5.5mb/s 181.387ms/op
+1729.531: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1767ops      177ops/s   5.5mb/s  180.754ms/op [0.007ms - 1797.689ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1729.531: IO Summary:  1767 ops 176.688 ops/s 177/0 rd/wr   5.5mb/s 180.754ms/op
+1739.532: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1800ops      180ops/s   5.6mb/s  177.552ms/op [0.007ms - 1825.243ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1739.532: IO Summary:  1800 ops 179.987 ops/s 180/0 rd/wr   5.6mb/s 177.552ms/op
+1749.533: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1822ops      182ops/s   5.7mb/s  175.454ms/op [0.007ms - 1374.517ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1749.533: IO Summary:  1822 ops 182.186 ops/s 182/0 rd/wr   5.7mb/s 175.454ms/op
+1759.534: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1822ops      182ops/s   5.7mb/s  176.504ms/op [0.007ms - 1165.728ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1759.534: IO Summary:  1822 ops 182.187 ops/s 182/0 rd/wr   5.7mb/s 176.504ms/op
+1769.535: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1803ops      180ops/s   5.6mb/s  176.453ms/op [0.007ms - 1312.985ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1769.535: IO Summary:  1803 ops 180.287 ops/s 180/0 rd/wr   5.6mb/s 176.453ms/op
+1779.536: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1809ops      181ops/s   5.7mb/s  177.825ms/op [0.007ms - 2098.623ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1779.536: IO Summary:  1809 ops 180.887 ops/s 181/0 rd/wr   5.7mb/s 177.825ms/op
+1789.537: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1858ops      186ops/s   5.8mb/s  172.072ms/op [0.007ms - 1142.329ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1789.537: IO Summary:  1858 ops 185.786 ops/s 186/0 rd/wr   5.8mb/s 172.072ms/op
+1799.538: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1783ops      178ops/s   5.6mb/s  179.319ms/op [0.007ms - 1503.851ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1799.538: IO Summary:  1783 ops 178.287 ops/s 178/0 rd/wr   5.6mb/s 179.319ms/op
+1809.539: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1758ops      176ops/s   5.5mb/s  183.010ms/op [0.008ms - 1273.341ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1809.539: IO Summary:  1758 ops 175.787 ops/s 176/0 rd/wr   5.5mb/s 183.010ms/op
+1819.540: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1882ops      188ops/s   5.9mb/s  169.653ms/op [0.007ms - 1463.827ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1819.541: IO Summary:  1882 ops 188.186 ops/s 188/0 rd/wr   5.9mb/s 169.653ms/op
+1829.542: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1834ops      183ops/s   5.7mb/s  174.888ms/op [0.008ms - 1487.541ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1829.542: IO Summary:  1834 ops 183.385 ops/s 183/0 rd/wr   5.7mb/s 174.888ms/op
+1839.543: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1804ops      180ops/s   5.6mb/s  176.753ms/op [0.007ms - 2198.735ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1839.543: IO Summary:  1804 ops 180.386 ops/s 180/0 rd/wr   5.6mb/s 176.753ms/op
+1849.544: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1784ops      178ops/s   5.6mb/s  178.828ms/op [0.007ms - 1342.537ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1849.544: IO Summary:  1784 ops 178.386 ops/s 178/0 rd/wr   5.6mb/s 178.828ms/op
+1859.545: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1787ops      179ops/s   5.6mb/s  179.160ms/op [0.007ms - 2086.762ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1859.545: IO Summary:  1787 ops 178.686 ops/s 179/0 rd/wr   5.6mb/s 179.160ms/op
+1869.546: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1796ops      180ops/s   5.6mb/s  178.671ms/op [0.007ms - 1400.504ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1869.546: IO Summary:  1796 ops 179.585 ops/s 180/0 rd/wr   5.6mb/s 178.671ms/op
+1879.547: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1897ops      190ops/s   5.9mb/s  168.671ms/op [0.007ms - 1214.668ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1879.547: IO Summary:  1897 ops 189.684 ops/s 190/0 rd/wr   5.9mb/s 168.671ms/op
+1889.549: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1879ops      188ops/s   5.9mb/s  170.149ms/op [0.007ms - 1264.950ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1889.549: IO Summary:  1879 ops 187.885 ops/s 188/0 rd/wr   5.9mb/s 170.149ms/op
+1899.550: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1905ops      190ops/s   6.0mb/s  167.965ms/op [0.007ms - 1332.983ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1899.550: IO Summary:  1905 ops 190.484 ops/s 190/0 rd/wr   6.0mb/s 167.965ms/op
+1909.551: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1795ops      179ops/s   5.6mb/s  179.013ms/op [0.007ms - 1494.228ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1909.551: IO Summary:  1795 ops 179.485 ops/s 179/0 rd/wr   5.6mb/s 179.013ms/op
+1919.552: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1766ops      177ops/s   5.5mb/s  180.167ms/op [0.007ms - 1268.419ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1919.552: IO Summary:  1766 ops 176.586 ops/s 177/0 rd/wr   5.5mb/s 180.167ms/op
+1929.553: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1870ops      187ops/s   5.8mb/s  171.250ms/op [0.008ms - 1949.040ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1929.553: IO Summary:  1870 ops 186.985 ops/s 187/0 rd/wr   5.8mb/s 171.250ms/op
+1939.554: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1883ops      188ops/s   5.9mb/s  169.097ms/op [0.007ms - 1656.888ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1939.554: IO Summary:  1883 ops 188.286 ops/s 188/0 rd/wr   5.9mb/s 169.097ms/op
+1949.555: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1875ops      187ops/s   5.9mb/s  172.773ms/op [0.007ms - 2020.039ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1949.555: IO Summary:  1875 ops 187.485 ops/s 187/0 rd/wr   5.9mb/s 172.773ms/op
+1959.557: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1836ops      184ops/s   5.7mb/s  173.435ms/op [0.007ms - 1398.571ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1959.557: IO Summary:  1836 ops 183.586 ops/s 184/0 rd/wr   5.7mb/s 173.435ms/op
+1969.558: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1875ops      187ops/s   5.9mb/s  170.338ms/op [0.007ms - 1358.178ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1969.558: IO Summary:  1875 ops 187.485 ops/s 187/0 rd/wr   5.9mb/s 170.338ms/op
+1979.559: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1900ops      190ops/s   5.9mb/s  168.675ms/op [0.007ms - 1227.142ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1979.559: IO Summary:  1900 ops 189.987 ops/s 190/0 rd/wr   5.9mb/s 168.675ms/op
+1989.560: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1825ops      182ops/s   5.7mb/s  174.816ms/op [0.007ms - 1855.707ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1989.560: IO Summary:  1825 ops 182.486 ops/s 182/0 rd/wr   5.7mb/s 174.816ms/op
+1999.561: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1827ops      183ops/s   5.7mb/s  176.756ms/op [0.007ms - 1700.175ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+1999.561: IO Summary:  1827 ops 182.687 ops/s 183/0 rd/wr   5.7mb/s 176.756ms/op
+2009.562: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1860ops      186ops/s   5.8mb/s  171.152ms/op [0.007ms - 1486.386ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2009.562: IO Summary:  1860 ops 185.985 ops/s 186/0 rd/wr   5.8mb/s 171.152ms/op
+2019.563: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1829ops      183ops/s   5.7mb/s  175.394ms/op [0.007ms - 1831.610ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2019.563: IO Summary:  1829 ops 182.887 ops/s 183/0 rd/wr   5.7mb/s 175.394ms/op
+2029.564: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1820ops      182ops/s   5.7mb/s  174.769ms/op [0.007ms - 1496.672ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2029.564: IO Summary:  1820 ops 181.988 ops/s 182/0 rd/wr   5.7mb/s 174.769ms/op
+2039.565: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1888ops      189ops/s   5.9mb/s  170.116ms/op [0.007ms - 1184.567ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2039.565: IO Summary:  1888 ops 188.785 ops/s 189/0 rd/wr   5.9mb/s 170.116ms/op
+2049.566: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1772ops      177ops/s   5.5mb/s  179.353ms/op [0.007ms - 1662.745ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2049.566: IO Summary:  1772 ops 177.187 ops/s 177/0 rd/wr   5.5mb/s 179.353ms/op
+2059.567: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1894ops      189ops/s   5.9mb/s  171.039ms/op [0.007ms - 2228.678ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2059.567: IO Summary:  1894 ops 189.388 ops/s 189/0 rd/wr   5.9mb/s 171.039ms/op
+2069.568: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1955ops      195ops/s   6.1mb/s  161.785ms/op [0.007ms - 1432.991ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2069.569: IO Summary:  1955 ops 195.485 ops/s 195/0 rd/wr   6.1mb/s 161.785ms/op
+2079.570: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1902ops      190ops/s   5.9mb/s  167.081ms/op [0.007ms - 1354.775ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2079.570: IO Summary:  1902 ops 190.185 ops/s 190/0 rd/wr   5.9mb/s 167.081ms/op
+2089.571: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1816ops      182ops/s   5.7mb/s  177.406ms/op [0.007ms - 1365.562ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2089.571: IO Summary:  1816 ops 181.586 ops/s 182/0 rd/wr   5.7mb/s 177.406ms/op
+2099.572: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1897ops      190ops/s   5.9mb/s  169.695ms/op [0.007ms - 1778.163ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2099.572: IO Summary:  1897 ops 189.686 ops/s 190/0 rd/wr   5.9mb/s 169.695ms/op
+2109.573: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1867ops      187ops/s   5.8mb/s  171.384ms/op [0.007ms - 1568.780ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2109.573: IO Summary:  1867 ops 186.687 ops/s 187/0 rd/wr   5.8mb/s 171.384ms/op
+2119.574: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1832ops      183ops/s   5.7mb/s  175.955ms/op [0.007ms - 2743.420ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2119.574: IO Summary:  1832 ops 183.187 ops/s 183/0 rd/wr   5.7mb/s 175.955ms/op
+2129.575: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1921ops      192ops/s   6.0mb/s  165.095ms/op [0.007ms - 1634.921ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2129.575: IO Summary:  1921 ops 192.086 ops/s 192/0 rd/wr   6.0mb/s 165.095ms/op
+2139.576: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1860ops      186ops/s   5.8mb/s  172.632ms/op [0.007ms - 1607.821ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2139.576: IO Summary:  1860 ops 185.987 ops/s 186/0 rd/wr   5.8mb/s 172.632ms/op
+2149.577: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1921ops      192ops/s   6.0mb/s  166.105ms/op [0.007ms - 1365.121ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2149.577: IO Summary:  1921 ops 192.087 ops/s 192/0 rd/wr   6.0mb/s 166.105ms/op
+2159.578: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1977ops      198ops/s   6.2mb/s  162.309ms/op [0.007ms - 2053.432ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2159.578: IO Summary:  1977 ops 197.685 ops/s 198/0 rd/wr   6.2mb/s 162.309ms/op
+2169.579: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1920ops      192ops/s   6.0mb/s  165.866ms/op [0.007ms - 1312.213ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2169.579: IO Summary:  1920 ops 191.986 ops/s 192/0 rd/wr   6.0mb/s 165.866ms/op
+2179.580: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1849ops      185ops/s   5.8mb/s  173.986ms/op [0.007ms - 1619.196ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2179.581: IO Summary:  1849 ops 184.886 ops/s 185/0 rd/wr   5.8mb/s 173.986ms/op
+2189.582: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1914ops      191ops/s   6.0mb/s  166.194ms/op [0.007ms - 2163.831ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2189.582: IO Summary:  1914 ops 191.385 ops/s 191/0 rd/wr   6.0mb/s 166.194ms/op
+2199.583: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1894ops      189ops/s   5.9mb/s  169.211ms/op [0.007ms - 2216.798ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2199.583: IO Summary:  1894 ops 189.386 ops/s 189/0 rd/wr   5.9mb/s 169.211ms/op
+2209.584: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1910ops      191ops/s   6.0mb/s  167.658ms/op [0.007ms - 1211.617ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2209.584: IO Summary:  1910 ops 190.986 ops/s 191/0 rd/wr   6.0mb/s 167.658ms/op
+2219.585: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1924ops      192ops/s   6.0mb/s  166.625ms/op [0.007ms - 1852.652ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2219.585: IO Summary:  1924 ops 192.385 ops/s 192/0 rd/wr   6.0mb/s 166.625ms/op
+2229.586: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1968ops      197ops/s   6.1mb/s  162.762ms/op [0.007ms - 1076.138ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2229.586: IO Summary:  1968 ops 196.785 ops/s 197/0 rd/wr   6.1mb/s 162.762ms/op
+2239.587: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1896ops      190ops/s   5.9mb/s  165.569ms/op [0.007ms - 1434.250ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2239.587: IO Summary:  1896 ops 189.586 ops/s 190/0 rd/wr   5.9mb/s 165.569ms/op
+2249.588: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1996ops      200ops/s   6.2mb/s  163.543ms/op [0.007ms - 1331.290ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2249.588: IO Summary:  1996 ops 199.585 ops/s 200/0 rd/wr   6.2mb/s 163.543ms/op
+2259.589: Per-Operation Breakdown
+finish               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+read-file            1881ops      188ops/s   5.9mb/s  170.037ms/op [0.007ms - 1998.418ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2259.589: IO Summary:  1881 ops 188.085 ops/s 188/0 rd/wr   5.9mb/s 170.037ms/op
+2269.591: Per-Operation Breakdown
+finish               2ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               2ops        0ops/s   0.0mb/s    0.018ms/op [0.000ms - 0.022ms]
+read-file            1950ops      195ops/s   6.1mb/s  162.712ms/op [0.007ms - 1571.913ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2269.591: IO Summary:  1952 ops 195.185 ops/s 195/0 rd/wr   6.1mb/s 162.545ms/op
+2279.592: Per-Operation Breakdown
+finish               1ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               1ops        0ops/s   0.0mb/s    0.014ms/op [0.000ms - 0.014ms]
+read-file            1937ops      194ops/s   6.1mb/s  154.027ms/op [0.000ms - 1343.778ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2279.592: IO Summary:  1938 ops 193.785 ops/s 194/0 rd/wr   6.1mb/s 153.947ms/op
+2289.593: Per-Operation Breakdown
+finish               5ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               5ops        0ops/s   0.0mb/s    0.013ms/op [0.000ms - 0.017ms]
+read-file            1856ops      186ops/s   5.8mb/s  149.128ms/op [0.000ms - 1192.930ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2289.593: IO Summary:  1861 ops 186.085 ops/s 186/0 rd/wr   5.8mb/s 148.727ms/op
+2299.594: Per-Operation Breakdown
+finish               9ops        1ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+close1               9ops        1ops/s   0.0mb/s    0.012ms/op [0.000ms - 0.015ms]
+read-file            1888ops      189ops/s   5.9mb/s  112.438ms/op [0.000ms - 830.288ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2299.594: IO Summary:  1897 ops 189.686 ops/s 189/0 rd/wr   5.9mb/s 111.905ms/op
+2309.595: Run took 1530 seconds...
+2309.595: Per-Operation Breakdown
+finish               15ops        1ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.001ms]
+close1               15ops        1ops/s   0.0mb/s    0.012ms/op [0.000ms - 0.017ms]
+read-file            1020ops      102ops/s   3.2mb/s   62.799ms/op [0.000ms - 755.907ms]
+open1                0ops        0ops/s   0.0mb/s    0.000ms/op [0.000ms - 0.000ms]
+2309.595: IO Summary:  1035 ops 103.491 ops/s 102/0 rd/wr   3.2mb/s 61.889ms/op
+2309.595: Shutting down processes
